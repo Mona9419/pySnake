@@ -4,7 +4,7 @@ from gamestate import GameState
 
 def main():
     pygame.init()
-    pygame.display.set_caption("pySnake Game")
+    pygame.display.set_caption("Python Snake Game")
     settings = Settings()
     screen = pygame.display.set_mode((settings.screen_width, settings.screen_height))
     game_state = GameState(settings)
